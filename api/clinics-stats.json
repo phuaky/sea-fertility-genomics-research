@@ -1,0 +1,24 @@
+{
+  "total_clinics": 102,
+  "by_country": {
+    "Vietnam": 32,
+    "Malaysia": 29,
+    "Singapore": 25,
+    "Indonesia": 7,
+    "Thailand": 8,
+    "Brunei": 1
+  },
+  "by_tier": {
+    "1": 47,
+    "2": 51,
+    "3": 3,
+    "untiered": 1
+  },
+  "data_completeness": {
+    "has_email": 74,
+    "has_phone": 84,
+    "has_services": 84,
+    "has_tier": 101
+  },
+  "last_updated": "2026-02-27"
+}

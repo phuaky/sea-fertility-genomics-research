@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Personal data (if any drafts contain real contact info)
+*.personal.md
+*.private.csv
+
+# Outreach activity (private)
+data/send-log.txt
+data/outreach-drafts-*.md
+scripts/send-tier1-emails.py
+data/outreach-tracker.csv
+
+# Internal
+Plans/
+.claude/

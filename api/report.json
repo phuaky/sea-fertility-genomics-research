@@ -1,0 +1,1893 @@
+{
+  "title": "SEA Fertility Genomics Research Report",
+  "subtitle": "PGT-P Partnership Opportunities in Southeast Asia",
+  "author": "Kuan Yu",
+  "location": "Singapore",
+  "date": "2026-02-27",
+  "summary": "Mapping IVF clinics across Southeast Asia for PGT-P partnership with Genomic Prediction / LifeView.",
+  "clinics": [
+    {
+      "clinic_name": "Tam Anh General Hospital IVF Centre (IVFTA)",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "tamanhhospital.vn",
+      "email": "cskh@tamanhhospital.vn",
+      "phone": "1800 6858 / 024 7106 6858",
+      "services": "IVF/ICSI/IUI/PGT-A/PGT-M/Timelapse",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "Leading SE Asia IVF center. 108 Hoang Nhu Tiep Long Bien.",
+      "lat": 21.0069,
+      "lng": 105.8726
+    },
+    {
+      "clinic_name": "Andrology & Fertility Hospital of Hanoi",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "afhanoi.com",
+      "email": "contact@afhanoi.com",
+      "phone": "(+84) 24 3634 3636",
+      "services": "IVF/ICSI/IUI/PGT-A/PGT-M/PGD/Timelapse-AI",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "RTAC certified Dec 2022. First private MOH-licensed IVF in North VN. Est. 2009.",
+      "lat": 21.0135,
+      "lng": 105.8468
+    },
+    {
+      "clinic_name": "Hong Ngoc IVF Fertility Center",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "ivfhongngoc.com",
+      "email": "arthongngoc@hongngochospital.vn",
+      "phone": "0915 960 139",
+      "services": "IVF/ICSI/IUI/Mini-IVF/PGD/PGS",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "55 Yen Ninh Ba Dinh. Two campuses.",
+      "lat": 21.0408,
+      "lng": 105.8374
+    },
+    {
+      "clinic_name": "Vinmec Times City IVF Center",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "vinmec.com",
+      "email": "cs_timescity@vinmec.com",
+      "phone": "0243 9743 556",
+      "services": "IVF/ICSI/IUI/PGT-A/PGT-M",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "RTAC certified. Co-located with Vinmec Gene Technology Center.",
+      "lat": 20.995,
+      "lng": 105.8685
+    },
+    {
+      "clinic_name": "Vietnam National Hospital of OB-GYN (VNHOG)",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "benhvienphusantrunguong.org.vn",
+      "email": "lienhe@benhvienphusantrunguong.org.vn",
+      "phone": "(+84-24) 3825-2161",
+      "services": "IVF/ICSI/IUI/PGT/egg donation/embryo cryo",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "MOH flagship ART center. 43 Trang Thi Hoan Kiem.",
+      "lat": 21.0247,
+      "lng": 105.8477
+    },
+    {
+      "clinic_name": "Dong Do IVF Center",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "ivfdongdo.com",
+      "email": "dongdoivfcenter@gmail.com",
+      "phone": "1900 1965",
+      "services": "IVF/ICSI/IUI/PGD/PGS",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "110k+ couples treated. Led by Dr Tang Duc Cuong. 5 Xa Dan Dong Da.",
+      "lat": 21.0143,
+      "lng": 105.8316
+    },
+    {
+      "clinic_name": "Duc Phuc Hospital",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "benhvienducphuc.com",
+      "email": "info@benhvienducphuc.com",
+      "phone": "097 119 5050",
+      "services": "IVF/ICSI/IUI/PGS/PGD/Timelapse/ZyMot",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "Advanced embryology lab. 121 O Dong Lam Dong Da.",
+      "lat": 21.0108,
+      "lng": 105.8198
+    },
+    {
+      "clinic_name": "Phuong Dong General Hospital IVF",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "benhvienphuongdong.vn",
+      "email": "info@benhvienphuongdong.vn",
+      "phone": "1900 1806",
+      "services": "IVF/ICSI/IUI/PGS",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "First PGT in Vietnam 2014. 80%+ success rate.",
+      "lat": 20.9825,
+      "lng": 105.7897
+    },
+    {
+      "clinic_name": "Superior A.R.T. Hanoi",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "thaisuperiorart.com",
+      "email": "",
+      "phone": "+84 4 6682 2603",
+      "services": "Consultation/referral to Bangkok for IVF/PGT-A/PGT-M/PGT-SR",
+      "tier": 1,
+      "ships_overseas": "Yes - ships to Bangkok",
+      "notes": "Genea joint venture. Status of Hanoi office unconfirmed 2026.",
+      "lat": 21.0125,
+      "lng": 105.8283
+    },
+    {
+      "clinic_name": "Hanoi Obstetrics & Gynecology Hospital",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "benhvienphusanhanoi.vn",
+      "email": "",
+      "phone": "024 3834 3181",
+      "services": "IVF/ICSI/IUI/embryo freezing",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "Public hospital. IVF dept est. 2006. 72% pregnancy rate.",
+      "lat": 21.0319,
+      "lng": 105.8504
+    },
+    {
+      "clinic_name": "Hanoi Medical University Hospital IVF Center",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "benhviendaihocyhanoi.com",
+      "email": "benhviendhy@gmail.com",
+      "phone": "1900 6422",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "40%+ success rate. 1 Ton That Tung Dong Da.",
+      "lat": 21.0022,
+      "lng": 105.831
+    },
+    {
+      "clinic_name": "Bach Mai Hospital IVF Support Unit",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "bachmai.gov.vn",
+      "email": "bachmai@bachmai.gov.vn",
+      "phone": "024 3869 3731",
+      "services": "IVF/ICSI/blastocyst culture",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "MOH authorized IVF Dec 2013. Public hospital.",
+      "lat": 21,
+      "lng": 105.8425
+    },
+    {
+      "clinic_name": "Vietnam Belgium Hospital",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "benhvienvietbi.vn",
+      "email": "info@benhvienvietbi.vn",
+      "phone": "024 7300 2268",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "International Belgian collaboration.",
+      "lat": 21.0035,
+      "lng": 105.8673
+    },
+    {
+      "clinic_name": "Thien An Obstetrics Hospital",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "phusanthienan.com",
+      "email": "contact@phusanthienan.com",
+      "phone": "1900 633 081",
+      "services": "IVF/ICSI/IUI/ZIFT/GIFT",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "Est. Jan 2020. Director: Prof Nguyen Viet Tien (IVF pioneer).",
+      "lat": 21.0175,
+      "lng": 105.8115
+    },
+    {
+      "clinic_name": "Hanoi Post Hospital IVF Center",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "hotrosinhsanbenhvienbuudien.com.vn",
+      "email": "htssbd@gmail.com",
+      "phone": "0888 48 8118",
+      "services": "IVF/IUI/PESA/micro-TESE",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "49 Tran Dien Hoang Mai.",
+      "lat": 20.978,
+      "lng": 105.855
+    },
+    {
+      "clinic_name": "Hoe Nhai General Hospital IVF Unit",
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "website": "",
+      "email": "hotrosinhsanhoenhai@gmail.com",
+      "phone": "0965 896 565",
+      "services": "IVF/IUI",
+      "tier": 3,
+      "ships_overseas": "Unknown",
+      "notes": "Smaller public hospital unit.",
+      "lat": 21.0393,
+      "lng": 105.8466
+    },
+    {
+      "clinic_name": "Tu Du Hospital IVF Centre",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "tudu.com.vn",
+      "email": "tudu@tudu.com.vn",
+      "phone": "(028) 3952 6568",
+      "services": "IVF/ICSI/IUI/genetics",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "RTAC certified. Vietnam IVF pioneer. 16300+ IVF babies. Public hospital.",
+      "lat": 10.7783,
+      "lng": 106.6914
+    },
+    {
+      "clinic_name": "IVFMD (My Duc Hospital)",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "myduchospital.vn",
+      "email": "ivfmd@myduchospital.vn",
+      "phone": "0901 313 717",
+      "services": "IVF/ICSI/IUI/PGT-A/PGT-M/surrogacy",
+      "tier": 1,
+      "ships_overseas": "Likely via GENTIS",
+      "notes": "Research-active. Published peer-reviewed PGT-M research. 66.7% fresh success rate.",
+      "lat": 10.759,
+      "lng": 106.6608
+    },
+    {
+      "clinic_name": "Hanh Phuc International Hospital",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "hanhphuchospital.com",
+      "email": "info@hanhphuchospital.com",
+      "phone": "1900 6765",
+      "services": "IVF/ICSI/IUI/PGT/blastocyst",
+      "tier": 1,
+      "ships_overseas": "Yes - Genea/Superior A.R.T. partnership",
+      "notes": "RTAC (first in VN 2014). JCI Gold Seal 2019. Binh Duong near HCMC.",
+      "lat": 11.0165,
+      "lng": 106.609
+    },
+    {
+      "clinic_name": "Tam Anh General Hospital HCMC",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "tamanhhospital.vn",
+      "email": "cskh.hcm@tamanhhospital.vn",
+      "phone": "028 7102 6789",
+      "services": "IVF/ICSI/PGT/PGD/PGS/Timelapse",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "RTAC certified. ISO 15189 lab. 78.7% success rate (2024).",
+      "lat": 10.8035,
+      "lng": 106.7135
+    },
+    {
+      "clinic_name": "Vinmec Central Park OLEA IVF",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "oleafertility.com",
+      "email": "info@oleafertility.com",
+      "phone": "0789 247 257",
+      "services": "IVF/ICSI/IVM/FET/IUI/PGT",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "JCI-accredited Vinmec network.",
+      "lat": 10.788,
+      "lng": 106.722
+    },
+    {
+      "clinic_name": "An Sinh Hospital / IVFAS",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "ansinh.com.vn",
+      "email": "bvansinh@hcm.vnn.vn",
+      "phone": "028 3845 7777",
+      "services": "IVF/IUI/ICSI/PGT/cryo",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "IVFAS unit est. 2009. 65% success rate.",
+      "lat": 10.7925,
+      "lng": 106.6545
+    },
+    {
+      "clinic_name": "IVF Van Hanh",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "benhvienvanhanh.vn",
+      "email": "ivfvanhanh@gmail.com",
+      "phone": "028 3862 3569",
+      "services": "IVF/ICSI/IUI/GIFT/ZIFT/PGT/egg freezing",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "Est. 2000. MOH licensed for IVF Feb 2008.",
+      "lat": 10.77,
+      "lng": 106.6685
+    },
+    {
+      "clinic_name": "Saigon International OB-GYN Hospital (SIH)",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "sihospital.com.vn",
+      "email": "cskh@sihospital.com.vn",
+      "phone": "0898 300 028",
+      "services": "IVF/ICSI/PGT",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "District 1. Explicitly advertises PGT.",
+      "lat": 10.776,
+      "lng": 106.697
+    },
+    {
+      "clinic_name": "IVFMD Gia Dinh (branch)",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "ivfmdgiadinh.vn",
+      "email": "ivfmd@myduchospital.vn",
+      "phone": "0901 313 717",
+      "services": "IVF/ICSI/assisted hatching",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "Satellite branch opened Sep 2024. Same IVFMD network.",
+      "lat": 10.81,
+      "lng": 106.6655
+    },
+    {
+      "clinic_name": "Superior A.R.T. Ho Chi Minh City",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "superiorart.com.vn",
+      "email": "",
+      "phone": "+84 28 3636 7799",
+      "services": "IVF/ICSI/PGT-A/PGT-M/PGT-SR",
+      "tier": 1,
+      "ships_overseas": "Yes - ships to Bangkok/Sydney",
+      "notes": "Genea joint venture. International biopsy shipping established.",
+      "lat": 10.787,
+      "lng": 106.6915
+    },
+    {
+      "clinic_name": "City International Hospital IVF Center",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "cih.com.vn",
+      "email": "info@cih.com.vn",
+      "phone": "1900 8146",
+      "services": "IVF/ICSI/andrology",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "JCI-accredited. IVF Center launched March 2025. ISO 6 lab.",
+      "lat": 10.8515,
+      "lng": 106.6065
+    },
+    {
+      "clinic_name": "Hung Vuong Hospital",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "bvhungvuong.vn",
+      "email": "bvhungvuong@yahoo.com",
+      "phone": "(028) 3855 8532",
+      "services": "IVF/ICSI/IUI/surrogacy",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "Major public maternity hospital. 50% ET / 60% FET success.",
+      "lat": 10.7555,
+      "lng": 106.657
+    },
+    {
+      "clinic_name": "IVF Phuong Chau Saigon",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "saigon.ivfphuongchau.com",
+      "email": "ivfpcsg@phuongchau.com",
+      "phone": "1900 54 54 66",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "Part of Phuong Chau Healthcare Group. 70%+ success (ICSI-FET <35).",
+      "lat": 10.767,
+      "lng": 106.683
+    },
+    {
+      "clinic_name": "Mekong OB-GYN Hospital",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "benhvienphusanmekong.com",
+      "email": "info@mekonghospital.vn",
+      "phone": "1900 6113",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "110 beds. 200+ IVF babies by 2013.",
+      "lat": 10.7875,
+      "lng": 106.665
+    },
+    {
+      "clinic_name": "Saigon IVF Hospital",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "ivfsaigon.vn",
+      "email": "ivfsaigonhospital@gmail.com",
+      "phone": "0968 682 222",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "Claims 80% success rates.",
+      "lat": 10.795,
+      "lng": 106.669
+    },
+    {
+      "clinic_name": "Saigon Reproductive & Andrology Hospital",
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "website": "benhvienhiemmuonsaigon.vn",
+      "email": "lienhe@benhvienhiemmuonsaigon.vn",
+      "phone": "033 758 6226",
+      "services": "IVF/IUI/PIEZO ICSI/Time-Lapse AI",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "Advanced lab (PIEZO ICSI / AI Time-Lapse). ISO 6 lab.",
+      "lat": 10.802,
+      "lng": 106.662
+    },
+    {
+      "clinic_name": "Alpha IVF & Women's Specialists",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "alphafertilitycentre.com",
+      "email": "enquiry@alphafertilitycentre.com",
+      "phone": "+603 6141 6166",
+      "services": "IVF/ICSI/PGT-A/PGT-M/PGT-SR",
+      "tier": 1,
+      "ships_overseas": "Yes - ships biopsies to external labs",
+      "notes": "Fertility Service Provider of Year Asia-Pacific. In-house genetics. WhatsApp: +60 14-941 6388.",
+      "lat": 3.1571,
+      "lng": 101.6151
+    },
+    {
+      "clinic_name": "Sunfert International Fertility Centre",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "sunfert.com",
+      "email": "info@sunfert.com",
+      "phone": "+603 7622 8688",
+      "services": "IVF/ICSI/PGT-A/PGT-M/Karyomapping/ERA/EMMA/ALICE",
+      "tier": 1,
+      "ships_overseas": "Likely",
+      "notes": "4 centres nationwide. WhatsApp: +60 18-230 1717.",
+      "lat": 3.108,
+      "lng": 101.635
+    },
+    {
+      "clinic_name": "Thomson Fertility Centre (TMC)",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "tmcfertility.com",
+      "email": "enquiries.ivf@tmclife.com",
+      "phone": "+603 6287 1000",
+      "services": "IVF/ICSI/PGT-A/PGT-M",
+      "tier": 1,
+      "ships_overseas": "Likely",
+      "notes": "Est. 1994. RTAC-certified. Longest-running private fertility in MY. Formerly Tropicana Medical Centre.",
+      "lat": 3.114,
+      "lng": 101.6375
+    },
+    {
+      "clinic_name": "KPJ Damansara Fertility Centre",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "ivffertility.com.my",
+      "email": "enquiry@ivffertility.com.my",
+      "phone": "+603 7718 1000",
+      "services": "IVF/ICSI/IUI/PGT-A/PGD",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "Inside KPJ Damansara Specialist Hospital. 50-60% pregnancy rate.",
+      "lat": 3.1306,
+      "lng": 101.6185
+    },
+    {
+      "clinic_name": "Sunway Fertility Centre",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "sunwayfertility.com.my",
+      "email": "fertility@sunwaymedical.com",
+      "phone": "+603 7491 6555",
+      "services": "IVF/ICSI/PGT-M/genetic testing",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "Part of Sunway Medical Centre. Separate from Sunfert.",
+      "lat": 3.0673,
+      "lng": 101.6044
+    },
+    {
+      "clinic_name": "Evelyn Fertility & Women's Specialist",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "evelynfertility.com",
+      "email": "",
+      "phone": "+603 6151 4868",
+      "services": "IVF/IUI/ICSI/PGT-A",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "Dr Agilan Arjunan FRCOG. Two PJ locations. WhatsApp: +6012 694 4868.",
+      "lat": 3.115,
+      "lng": 101.627
+    },
+    {
+      "clinic_name": "Avisena Women's & Children's Hospital",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "womenandchildren.avisena.com.my",
+      "email": "awcsh.careline@avisena.com.my",
+      "phone": "+603 5650 1188",
+      "services": "IVF/ICSI/IUI/PGS/PGD/EmbryoScope",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "Dedicated women's & children's hospital. Shah Alam.",
+      "lat": 3.0884,
+      "lng": 101.549
+    },
+    {
+      "clinic_name": "Columbia Asia Hospital",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "columbiaasia.com/malaysia",
+      "email": "customercare.pj@columbiaasia.com",
+      "phone": "+603 7949 9999",
+      "services": "IVF/ICSI/ET/SSR/FET/PGD",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "12 hospitals in Malaysia. Multiple KL-area locations.",
+      "lat": 3.103,
+      "lng": 101.6415
+    },
+    {
+      "clinic_name": "KL Fertility Centre",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "klfertility.com",
+      "email": "hello@klfertility.com",
+      "phone": "+603 2780 4288",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "40+ years. 20000+ babies. Affiliated with Monash IVF Group.",
+      "lat": 3.1556,
+      "lng": 101.7112
+    },
+    {
+      "clinic_name": "Metro IVF",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "metro.com.my",
+      "email": "inquiry@metro.com.my",
+      "phone": "+6011 5555 0547",
+      "services": "IVF/IUI/ICSI",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "Est. 1989. First IVF baby 2000. 14+ branches nationwide.",
+      "lat": 3.1075,
+      "lng": 101.6335
+    },
+    {
+      "clinic_name": "Alhaya Fertility Centre",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "alhayafertility.com",
+      "email": "enquiry@alhayafertility.com",
+      "phone": "+603 7627 0088",
+      "services": "IVF/ICSI/Syariah-compliant",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "Part of Alpha IVF Group. Muslim-friendly.",
+      "lat": 3.1088,
+      "lng": 101.635
+    },
+    {
+      "clinic_name": "Sophea Fertility Centre",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "sopheafertility.com",
+      "email": "info@sopheafertility.com",
+      "phone": "+603 7622 8622",
+      "services": "IVF/IUI/Syariah-compliant",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "Women-centric & Muslim-friendly. Also has Bangi branch.",
+      "lat": 3.1095,
+      "lng": 101.634
+    },
+    {
+      "clinic_name": "Ever-Link Fertility Centre",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "everlinkivf.com.my",
+      "email": "info@ever-linkivf.com",
+      "phone": "+603 5888 8335",
+      "services": "IVF/IUI/ICSI",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "Shah Alam. Associated with GenPrime.",
+      "lat": 3.074,
+      "lng": 101.5175
+    },
+    {
+      "clinic_name": "Pantai Hospital KL",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "pantai.com.my/kuala-lumpur",
+      "email": "",
+      "phone": "+603 2296 0888",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "IHH Healthcare. IVF package from RM13888. Contact form only.",
+      "lat": 3.1105,
+      "lng": 101.666
+    },
+    {
+      "clinic_name": "Prince Court Medical Centre",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "princecourt.com",
+      "email": "",
+      "phone": "+603 2160 0000",
+      "services": "IVF/fertility",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "PETRONAS-linked. Premium facility.",
+      "lat": 3.1595,
+      "lng": 101.717
+    },
+    {
+      "clinic_name": "Gleneagles Hospital KL",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "gleneagles.com.my/kuala-lumpur",
+      "email": "ghkl@gleneagles.com.my",
+      "phone": "+603 4141 3721",
+      "services": "IVF/ICSI/IUI/GIFT/ZIFT",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "IHH Healthcare group.",
+      "lat": 3.157,
+      "lng": 101.735
+    },
+    {
+      "clinic_name": "Global Doctors Hospital (Dr Hu Shan)",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "datindrshannyhugynaefertility.com",
+      "email": "drshannyhu@gmail.com",
+      "phone": "+6017 508 1925",
+      "services": "IVF/reproductive medicine",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "Solo practitioner. Mont Kiara.",
+      "lat": 3.1725,
+      "lng": 101.654
+    },
+    {
+      "clinic_name": "UMMC Fertility Unit",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "ummc.edu.my",
+      "email": "ruzn@um.edu.my",
+      "phone": "UMMC ext 2059",
+      "services": "IVF/IUI",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "Public university hospital. Lower cost but longer waits.",
+      "lat": 3.1133,
+      "lng": 101.6555
+    },
+    {
+      "clinic_name": "GGA Malaysia (genetics lab)",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "website": "ggasia.com.my",
+      "email": "ggamalaysia-service@gga.asia",
+      "phone": "+603 2786 3747",
+      "services": "PGT-A/PGT-M/carrier screening (lab only)",
+      "tier": null,
+      "ships_overseas": "Receives samples from clinics",
+      "notes": "CAP + ISO17025 + ISO15189 accredited. Key potential PGT-P partner.",
+      "lat": 3.155,
+      "lng": 101.713
+    },
+    {
+      "clinic_name": "Monash IVF KPJ Johor",
+      "country": "Malaysia",
+      "city": "Johor Bahru",
+      "website": "monashivfkpj.com",
+      "email": "contactus@monashivfkpj.com",
+      "phone": "+607 225 3190",
+      "services": "IVF/ICSI/IUI/PGT-A/PGT-M/NIPT/Timelapse",
+      "tier": 1,
+      "ships_overseas": "Yes - Monash IVF Genetics lab (Australia)",
+      "notes": "Est. 1994. RTAC standards. IVF from MYR 19500. WhatsApp: +6011 5851 4649.",
+      "lat": 1.5285,
+      "lng": 103.7554
+    },
+    {
+      "clinic_name": "TMC Fertility JB",
+      "country": "Malaysia",
+      "city": "Johor Bahru",
+      "website": "tmcfertility.com/johor-bahru-branch",
+      "email": "jb@tmcfertility.com",
+      "phone": "+607 278 0088",
+      "services": "IVF/ICSI/IUI/PGT-A/PGT-M",
+      "tier": 1,
+      "ships_overseas": "Likely",
+      "notes": "JB branch since 2004. Part of Thomson Hospital chain.",
+      "lat": 1.4725,
+      "lng": 103.7625
+    },
+    {
+      "clinic_name": "Victory IVF Fertility Centre",
+      "country": "Malaysia",
+      "city": "Johor Bahru",
+      "website": "vivfc.com",
+      "email": "enquiry@vivfc.com",
+      "phone": "+607 272 2980",
+      "services": "IVF/ICSI/IUI/PGT-A",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "Pioneer IVF in JB. Hong Kong group est. 1998. Menara Landmark.",
+      "lat": 1.4625,
+      "lng": 103.762
+    },
+    {
+      "clinic_name": "IVF Bridge Fertility Centre",
+      "country": "Malaysia",
+      "city": "Johor Bahru",
+      "website": "ivfbridge.com.my",
+      "email": "info@ivfbridge.com.my",
+      "phone": "+607 332 9968",
+      "services": "IVF/ICSI/IUI/PGS/PGD",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "Dr Tan Jui Seng. Southkey location.",
+      "lat": 1.478,
+      "lng": 103.7365
+    },
+    {
+      "clinic_name": "Kensington Hospital Johor",
+      "country": "Malaysia",
+      "city": "Johor Bahru",
+      "website": "kgsc.com.my",
+      "email": "ivf@kgsc.com.my",
+      "phone": "+607 2133 888",
+      "services": "IVF/ICSI/IUI/PGT/ERA/EMMA/ALICE/Timelapse",
+      "tier": 1,
+      "ships_overseas": "Unknown",
+      "notes": "Hospital-based. Iskandar Puteri. Opened Dec 2019.",
+      "lat": 1.4375,
+      "lng": 103.6395
+    },
+    {
+      "clinic_name": "GS IVF Centre @ Medini (Sincere Healthcare)",
+      "country": "Malaysia",
+      "city": "Johor Bahru",
+      "website": "gsivfcentre.com.my",
+      "email": "gsivf@sincerehealthcare.com.sg",
+      "phone": "+607 560 1056",
+      "services": "IVF/ICSI/IUI/PGT-A (3rd gen sequencing)",
+      "tier": 1,
+      "ships_overseas": "Highly likely - SG parent co",
+      "notes": "SG-headquartered. Founded by Prof Ng Soon Chye. Inside Gleneagles Medini.",
+      "lat": 1.4225,
+      "lng": 103.634
+    },
+    {
+      "clinic_name": "Regency Specialist Hospital",
+      "country": "Malaysia",
+      "city": "Johor Bahru",
+      "website": "regencyspecialist.com",
+      "email": "hscappointment@regencyspecialist.com",
+      "phone": "+607 381 7730",
+      "services": "OB-GYN/fertility/IVF",
+      "tier": 2,
+      "ships_overseas": "Unknown",
+      "notes": "Masai (~30 min from central JB). No dedicated IVF centre.",
+      "lat": 1.5105,
+      "lng": 103.888
+    },
+    {
+      "clinic_name": "SR Women & Children Specialist Clinic",
+      "country": "Malaysia",
+      "city": "Johor Bahru",
+      "website": "srwomenchildrenspecialists.com.my",
+      "email": "dr.tey@srwomenchildrenspecialists.com.my",
+      "phone": "+60 11 1992 3585",
+      "services": "IUI/fertility consultation (refers IVF out)",
+      "tier": 3,
+      "ships_overseas": "N/A",
+      "notes": "Gleneagles Hospital Johor. Refers advanced cases out.",
+      "lat": 1.483,
+      "lng": 103.7558
+    },
+    {
+      "clinic_name": "KK Women's & Children's Hospital (KKIVF)",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "kkh.com.sg",
+      "email": "kkivf@kkh.com.sg",
+      "phone": "+65 6294 4050",
+      "services": "IVF/ICSI/IUI/PGT-M/PGT-SR/PGT-A (pilot)",
+      "tier": 1,
+      "ships_overseas": "",
+      "notes": "Public. PGT-A pilot trial site.",
+      "lat": 1.3104,
+      "lng": 103.8467
+    },
+    {
+      "clinic_name": "SGH Centre for Assisted Reproduction (CARE)",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "sgh.com.sg",
+      "email": "mysgh@sgh.com.sg",
+      "phone": "+65 6321 4377",
+      "services": "IVF/ICSI/IUI/PGT-M/PGT-SR/PGT-A (pilot)",
+      "tier": 1,
+      "ships_overseas": "",
+      "notes": "Public. PGT-A pilot trial site.",
+      "lat": 1.2791,
+      "lng": 103.8358
+    },
+    {
+      "clinic_name": "NUH Clinic for Human Reproduction (CHR)",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "nuh.com.sg",
+      "email": "CHR@nuhs.edu.sg",
+      "phone": "+65 6774 5336",
+      "services": "IVF/ICSI/IUI/PGT-M/PGT-SR/PGT-A (pilot)",
+      "tier": 1,
+      "ships_overseas": "",
+      "notes": "Public. Houses NUH PGDC - only MOH-approved PGT-M/SR testing lab in SG.",
+      "lat": 1.2935,
+      "lng": 103.7832
+    },
+    {
+      "clinic_name": "Alpha International Women's Specialists",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "alphaspecialists.com.sg",
+      "email": "enquiry@alphaspecialists.com.sg",
+      "phone": "+65 6860 8888",
+      "services": "IVF/ICSI/IUI/PGT-M/PGT-SR",
+      "tier": 1,
+      "ships_overseas": "",
+      "notes": "Private. Dr Tan Heng Hao.",
+      "lat": 1.3066,
+      "lng": 103.8355
+    },
+    {
+      "clinic_name": "Thomson Fertility Centre",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "thomsonfertility.com.sg",
+      "email": "hello@bng.sg",
+      "phone": "+65 6252 7766",
+      "services": "IVF/ICSI/IUI/PGT-M/PGT-SR",
+      "tier": 1,
+      "ships_overseas": "",
+      "notes": "Private. Dr Janice Tung. MOH approved PGT-M/PGT-SR centre.",
+      "lat": 1.3207,
+      "lng": 103.8419
+    },
+    {
+      "clinic_name": "Monash IVF Singapore",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "monashivf.com.sg",
+      "email": "info.sg@monashivf.com",
+      "phone": "+65 6723 7889",
+      "services": "IVF/ICSI/IUI/PGT-M/PGT-SR/PGT-A",
+      "tier": 1,
+      "ships_overseas": "Yes",
+      "notes": "Private. Australian parent. PGT-A not available in SG but accessible via international Monash IVF Group — CAN ship biopsies overseas. WhatsApp: +65 9183 5371.",
+      "lat": 1.3066,
+      "lng": 103.8355
+    },
+    {
+      "clinic_name": "Virtus Fertility Centre Singapore",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "virtusfertilitycentre.com.sg",
+      "email": "enquiries@virtusfertilitycentre.com.sg",
+      "phone": "+65 6460 4555",
+      "services": "IVF/ICSI/IUI/PGT-M/PGT-SR",
+      "tier": 1,
+      "ships_overseas": "",
+      "notes": "Private. Dr Roland Chieng. Samples sent to NUH PGDC.",
+      "lat": 1.3066,
+      "lng": 103.8355
+    },
+    {
+      "clinic_name": "Mount Elizabeth Fertility Centre",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "mountelizabeth.com.sg",
+      "email": "ivf@parkwaypantai.com",
+      "phone": "+65 6731 2693",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Parkway Pantai group. Est. 1988.",
+      "lat": 1.3066,
+      "lng": 103.8355
+    },
+    {
+      "clinic_name": "Health & Fertility Centre for Women",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "ivf.healthfertility.com.sg",
+      "email": "info@healthfertility.com.sg",
+      "phone": "+65 6235 5066",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Dr Kelly Loi.",
+      "lat": 1.304,
+      "lng": 103.833
+    },
+    {
+      "clinic_name": "Majella Women's Specialist",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "majella.sg",
+      "email": "enquiry@majella.sg",
+      "phone": "+65 6993 6626",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Dr Tan Heng Hao.",
+      "lat": 1.3206,
+      "lng": 103.8432
+    },
+    {
+      "clinic_name": "O&G Partners Fertility Centre",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "ogpartnersfertilitycentre.com",
+      "email": "daphne.khoo@shg.com.sg",
+      "phone": "+65 6507 0766",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Sincere Healthcare Group. Gleneagles Hospital.",
+      "lat": 1.3073,
+      "lng": 103.8232
+    },
+    {
+      "clinic_name": "Sincere IVF Center",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "sincereivfcenter.com",
+      "email": "ivf@shg.com.sg",
+      "phone": "+65 6507 0766",
+      "services": "IVF/ICSI/IUI/egg freezing",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Prof Soon-Chye Ng. 24/7 booking: +65 9088 0620.",
+      "lat": 1.3073,
+      "lng": 103.8232
+    },
+    {
+      "clinic_name": "CARE IVF (Foundation Women's Centre)",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "careivf.com",
+      "email": "careivf@fhg.com.sg",
+      "phone": "+65 6659 6638",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "SWC Medical Group.",
+      "lat": 1.3073,
+      "lng": 103.8232
+    },
+    {
+      "clinic_name": "Raffles Fertility Centre",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "rafflesmedicalgroup.com",
+      "email": "fertility@rafflesmedical.com",
+      "phone": "+65 6311 1250",
+      "services": "IVF/ICSI/IUI/cryo",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Raffles Medical Group.",
+      "lat": 1.3113,
+      "lng": 103.8561
+    },
+    {
+      "clinic_name": "Aspire Centre for Women & Fertility",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "aspirefertility.com.sg",
+      "email": "",
+      "phone": "+65 6252 8333",
+      "services": "IVF/ICSI/IUI/egg freezing",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Dr Fong Yang. Contact form only.",
+      "lat": 1.3066,
+      "lng": 103.8355
+    },
+    {
+      "clinic_name": "Seed of Life Fertility & Women's Care",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "seedoflifesingapore.com",
+      "email": "drsureshnair@seedoflifesingapore.com",
+      "phone": "+65 6887 4264",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Dr Suresh Nair (founding director of Monash IVF SG).",
+      "lat": 1.3066,
+      "lng": 103.8355
+    },
+    {
+      "clinic_name": "STO+G Laparoscopy & Fertility Practice",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "stogpractice.com",
+      "email": "enquiry@stogpractice.com",
+      "phone": "+65 6980 2970",
+      "services": "IVF/ICSI/IUI/egg freezing/laparoscopy",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Dr Steven Teo / Dr Liana Koe.",
+      "lat": 1.304,
+      "lng": 103.833
+    },
+    {
+      "clinic_name": "Wendy Women's Clinic",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "wendywomensclinic.com.sg",
+      "email": "enquiry@wendywomensclinic.com.sg",
+      "phone": "+65 6250 1685",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Mt Elizabeth Novena.",
+      "lat": 1.3201,
+      "lng": 103.8435
+    },
+    {
+      "clinic_name": "GynaeMD Women's & Rejuvenation Clinic",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "gynaemd.com.sg",
+      "email": "gynaemd@singnet.com.sg",
+      "phone": "+65 6733 8810",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Dr Christopher Ng. Camden Medical.",
+      "lat": 1.3055,
+      "lng": 103.827
+    },
+    {
+      "clinic_name": "The O&G Specialist Clinic",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "ogclinic.com.sg",
+      "email": "theogclinic@gmail.com",
+      "phone": "+65 6440 0800",
+      "services": "IVF/ICSI/IUI/egg freezing",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Est. 2011.",
+      "lat": 1.3066,
+      "lng": 103.8355
+    },
+    {
+      "clinic_name": "Noel Leong Fertility & IVF Clinic",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "noelleong.com",
+      "email": "",
+      "phone": "+65 6255 6883",
+      "services": "IVF/ICSI/IUI/blastocyst/donor",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Dr Noel K Y Leong. Farrer Park.",
+      "lat": 1.3138,
+      "lng": 103.8555
+    },
+    {
+      "clinic_name": "Women Fertility & Fetal Centre",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "anntan.com.sg",
+      "email": "",
+      "phone": "+65 6734 8188",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Dr Ann Tan. Mt Elizabeth.",
+      "lat": 1.3066,
+      "lng": 103.8355
+    },
+    {
+      "clinic_name": "Motoko Clinic For Women",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "motokoclinic.com",
+      "email": "motokoclinic@gmail.com",
+      "phone": "+65 6838 5366",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Dr Motoko Yeo (also at Virtus).",
+      "lat": 1.3066,
+      "lng": 103.8355
+    },
+    {
+      "clinic_name": "Astra Centre for Women & Fertility",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "astrawomenspecialists.com",
+      "email": "hello@astrawomenspecialists.com",
+      "phone": "+65 6353 3878",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Singapore Medical Group (SMG).",
+      "lat": 1.3201,
+      "lng": 103.8435
+    },
+    {
+      "clinic_name": "Daniel Koh Clinic For Women and Fertility",
+      "country": "Singapore",
+      "city": "Singapore",
+      "website": "danielkohclinic.com.sg",
+      "email": "",
+      "phone": "+65 6473 7938",
+      "services": "IVF/ICSI/IUI",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "Dr Daniel Koh. MOH-accredited for ART.",
+      "lat": 1.3201,
+      "lng": 103.8435
+    },
+    {
+      "clinic_name": "Morula IVF",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "website": "morulainvitro.co.id",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 1,
+      "ships_overseas": "",
+      "notes": "Multiple locations. Largest IVF provider in Indonesia.",
+      "lat": -6.188,
+      "lng": 106.829
+    },
+    {
+      "clinic_name": "RSAB Harapan Kita",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "website": "",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "",
+      "lat": -6.187,
+      "lng": 106.821
+    },
+    {
+      "clinic_name": "BIC (Bocah Indonesia Centre)",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "website": "",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "",
+      "lat": -6.224,
+      "lng": 106.8095
+    },
+    {
+      "clinic_name": "Siloam Hospitals Fertility Clinic",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "website": "siloamhospitals.com",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "",
+      "lat": -6.226,
+      "lng": 106.799
+    },
+    {
+      "clinic_name": "Bundamedik IVF Centre",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "website": "",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "",
+      "lat": -6.205,
+      "lng": 106.8425
+    },
+    {
+      "clinic_name": "RSIA Bunda Jakarta",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "website": "",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "",
+      "lat": -6.205,
+      "lng": 106.8425
+    },
+    {
+      "clinic_name": "RS Pondok Indah IVF",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "website": "",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "",
+      "lat": -6.264,
+      "lng": 106.784
+    },
+    {
+      "clinic_name": "Jetanin Institute",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "website": "jetanin.com",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 1,
+      "ships_overseas": "",
+      "notes": "Major fertility tourism hub.",
+      "lat": 13.7438,
+      "lng": 100.5494
+    },
+    {
+      "clinic_name": "Superior A.R.T.",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "website": "thaisuperiorart.com",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 1,
+      "ships_overseas": "",
+      "notes": "Genea/Thai joint venture. Ships biopsies globally.",
+      "lat": 13.802,
+      "lng": 100.5625
+    },
+    {
+      "clinic_name": "SAFE Fertility Group",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "website": "safefertilitygroup.com",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 1,
+      "ships_overseas": "",
+      "notes": "",
+      "lat": 13.738,
+      "lng": 100.5565
+    },
+    {
+      "clinic_name": "Bumrungrad Hospital Fertility Centre",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "website": "bumrungrad.com",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 1,
+      "ships_overseas": "",
+      "notes": "",
+      "lat": 13.7405,
+      "lng": 100.5513
+    },
+    {
+      "clinic_name": "Bangkok Hospital Fertility Centre",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "website": "bangkokhospital.com",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 1,
+      "ships_overseas": "",
+      "notes": "",
+      "lat": 13.7675,
+      "lng": 100.558
+    },
+    {
+      "clinic_name": "IVF & Women Clinic (IWC)",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "website": "iwclinic.com",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "",
+      "lat": 13.7375,
+      "lng": 100.5475
+    },
+    {
+      "clinic_name": "Genea Thailand / First Fertility",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "website": "firstfertility.com",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 1,
+      "ships_overseas": "",
+      "notes": "",
+      "lat": 13.745,
+      "lng": 100.531
+    },
+    {
+      "clinic_name": "Phyathai Sriracha IVF",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "website": "",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "",
+      "lat": 13.1665,
+      "lng": 100.9275
+    },
+    {
+      "clinic_name": "Lam Wah Ee Hospital Fertility",
+      "country": "Malaysia",
+      "city": "Penang",
+      "website": "",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "",
+      "lat": 5.387,
+      "lng": 100.2915
+    },
+    {
+      "clinic_name": "Island Hospital Fertility",
+      "country": "Malaysia",
+      "city": "Penang",
+      "website": "",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 2,
+      "ships_overseas": "",
+      "notes": "",
+      "lat": 5.396,
+      "lng": 100.309
+    },
+    {
+      "clinic_name": "RIPAS Hospital Fertility Unit",
+      "country": "Brunei",
+      "city": "Bandar Seri Begawan",
+      "website": "",
+      "email": "",
+      "phone": "",
+      "services": "",
+      "tier": 3,
+      "ships_overseas": "",
+      "notes": "Only IVF facility in Brunei.",
+      "lat": 4.934,
+      "lng": 114.946
+    }
+  ],
+  "stats": {
+    "total_clinics": 102,
+    "by_country": {
+      "Vietnam": 32,
+      "Malaysia": 29,
+      "Singapore": 25,
+      "Indonesia": 7,
+      "Thailand": 8,
+      "Brunei": 1
+    },
+    "by_tier": {
+      "1": 47,
+      "2": 51,
+      "3": 3,
+      "untiered": 1
+    },
+    "data_completeness": {
+      "has_email": 74,
+      "has_phone": 84,
+      "has_services": 84,
+      "has_tier": 101
+    },
+    "last_updated": "2026-02-27"
+  },
+  "regulatory": [
+    {
+      "country": "Vietnam",
+      "flag": "🇻🇳",
+      "priority": 1,
+      "regulator": "Ministry of Health (Bo Y Te)",
+      "pgt_status": {
+        "pgt_m": {
+          "status": "approved",
+          "label": "Approved",
+          "notes": "Available at major centres — published PGT-M research for beta-thalassaemia"
+        },
+        "pgt_a": {
+          "status": "approved",
+          "label": "Approved",
+          "notes": "Routinely offered at leading clinics in Hanoi and HCMC"
+        },
+        "pgt_sr": {
+          "status": "restricted",
+          "label": "Restricted",
+          "notes": "Likely available at advanced centres — no explicit regulation found"
+        },
+        "pgt_p": {
+          "status": "not_approved",
+          "label": "Not approved",
+          "notes": "No evidence of offering or regulation"
+        },
+        "sex_selection": {
+          "status": "prohibited",
+          "label": "Prohibited",
+          "notes": "Fines up to VND 30 million (proposed increase to VND 100M)"
+        }
+      },
+      "cross_border_shipping": {
+        "status": "unclear",
+        "summary": "Decree 89/2018 requires medical declaration for cross-border biological samples. No specific embryo biopsy regulation found.",
+        "evidence": "No Vietnamese clinic found publicly advertising overseas biopsy shipping."
+      },
+      "ivf_cost_usd": {
+        "min": 2400,
+        "max": 6000
+      },
+      "clinic_count": 32,
+      "tier1_count": 19,
+      "key_insight": "Most advanced Hanoi clinics offer PGT-A — adding PGT-P is one supplier change, not a capability build.",
+      "recent_changes": "Decree 207/2025 (Oct 2025): single women can access ART; part of pro-natalist shift after ending two-child policy.",
+      "sources": [
+        {
+          "title": "Decree 207/2025/ND-CP (English)",
+          "url": "https://english.luatvietnam.vn/hon-nhan-gia-dinh/decree-207-2025-nd-cp-assisted-reproductive-technology-and-surrogacy-405740-d1.html"
+        },
+        {
+          "title": "Decree 89/2018/ND-CP — cross-border biological samples",
+          "url": "https://english.luatvietnam.vn/decree-no-89-2018-nd-cp-dated-june-25-2018-of-the-government-guiding-the-implementation-of-the-law-on-infectious-disease-prevention-and-control-rega-164532-Doc1.html"
+        },
+        {
+          "title": "ClinRegs Vietnam — NIH/NIAID",
+          "url": "https://clinregs.niaid.nih.gov/country/vietnam"
+        },
+        {
+          "title": "PGT-M for beta-thalassaemia in Vietnam — PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33216308/"
+        },
+        {
+          "title": "Vinmec: 3 types of PGT",
+          "url": "https://www.vinmec.com/eng/article/3-types-of-preimplantation-genetic-testing-en"
+        },
+        {
+          "title": "UNFPA Vietnam — sex selection",
+          "url": "https://vietnam.unfpa.org/en/news/not-girls"
+        },
+        {
+          "title": "Vietnam Law Magazine — single women IVF access",
+          "url": "https://vietnamlawmagazine.vn/vietnam-grants-single-women-full-access-to-ivf-74860.html"
+        },
+        {
+          "title": "Newsweek — Vietnam ends two-child policy",
+          "url": "https://www.newsweek.com/vietnam-two-child-policy-birth-rates-2080941"
+        },
+        {
+          "title": "Docosan — IVF cost in Vietnam 2025",
+          "url": "https://www.docosan.com/blog/en/ivf-cost-in-vietnam-and-detailed-price-breakdown/"
+        }
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "flag": "🇲🇾",
+      "priority": 2,
+      "regulator": "Malaysian Medical Council (MMC)",
+      "pgt_status": {
+        "pgt_m": {
+          "status": "approved",
+          "label": "Approved",
+          "notes": "Available at Alpha IVF, Sunfert, TMC — when clinically indicated"
+        },
+        "pgt_a": {
+          "status": "approved",
+          "label": "Approved",
+          "notes": "Broadly offered at major clinics — when clinically indicated"
+        },
+        "pgt_sr": {
+          "status": "approved",
+          "label": "Approved",
+          "notes": "Falls under clinically indicated PGT"
+        },
+        "pgt_p": {
+          "status": "unclear",
+          "label": "Unclear",
+          "notes": "No clinics offer it; academic concerns raised under Islamic bioethics"
+        },
+        "sex_selection": {
+          "status": "prohibited",
+          "label": "Prohibited",
+          "notes": "Only for sex-linked genetic disorders, case-by-case"
+        }
+      },
+      "cross_border_shipping": {
+        "status": "yes",
+        "summary": "Clinics already ship to Igenomix (~$300/shipment, 7 working days). No outright prohibition found.",
+        "evidence": "Strongest pathway — existing shipping infrastructure to overseas reference labs."
+      },
+      "ivf_cost_usd": {
+        "min": 3000,
+        "max": 7700
+      },
+      "clinic_count": 29,
+      "tier1_count": 14,
+      "key_insight": "Clinics already ship biopsies to Igenomix — adding Genomic Prediction is operationally straightforward.",
+      "recent_changes": "Updated MMC Guideline (2025). No new ART-specific legislation. Long-discussed ART Act remains unlegislated.",
+      "sources": [
+        {
+          "title": "MMC Guideline on Medically Assisted Reproduction (PDF)",
+          "url": "https://mmc.gov.my/wp-content/uploads/2025/09/Medically-Assisted-Reproduction.pdf"
+        },
+        {
+          "title": "MOH Standards for ART Facility (PDF)",
+          "url": "https://www.moh.gov.my/moh/resources/Penerbitan/Perkhidmatan%20OnG%20&%20Ped/O%20&%20G/2._Standards_For_Assisted_Reproductive_Tech_Lab_And_Operation_Theatre_.pdf"
+        },
+        {
+          "title": "Medical (Amendment) Act 2024 (PDF)",
+          "url": "https://mmc.gov.my/wp-content/uploads/2025/08/Medical-Amendment-Act-2024.pdf"
+        },
+        {
+          "title": "Alpha IVF — PGT-M services",
+          "url": "https://www.alphafertilitycentre.com/ivf-treatment-options/preimplantation-genetic-testings-pgt/pgt-m-preimplantation-genetic-testing-for-monogenic-diseases"
+        },
+        {
+          "title": "Islamic viewpoints on sex selection — PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10994891/"
+        },
+        {
+          "title": "Islamic perspectives on PGT-P — PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38047997/"
+        },
+        {
+          "title": "Pantai Hospital KL — IVF package",
+          "url": "https://www.pantai.com.my/kuala-lumpur/packages-promotions/ivf-package"
+        },
+        {
+          "title": "Monash IVF KPJ — IVF cost",
+          "url": "https://monashivfkpj.com/ivf-cost-malaysia"
+        },
+        {
+          "title": "KWSP — fertility treatment",
+          "url": "https://www.kwsp.gov.my/en/member/healthcare/fertility"
+        }
+      ]
+    },
+    {
+      "country": "Singapore",
+      "flag": "🇸🇬",
+      "priority": 3,
+      "regulator": "Ministry of Health (MOH) via HCSA 2020",
+      "pgt_status": {
+        "pgt_m": {
+          "status": "approved",
+          "label": "Approved",
+          "notes": "Mainstream since May 2021 — MOH-approved centres, specified conditions list"
+        },
+        "pgt_a": {
+          "status": "restricted",
+          "label": "Pilot only",
+          "notes": "Government pilot at public hospitals — 590 enrolled, results \"inconclusive\""
+        },
+        "pgt_sr": {
+          "status": "approved",
+          "label": "Approved",
+          "notes": "Mainstream since May 2021 alongside PGT-M"
+        },
+        "pgt_p": {
+          "status": "not_approved",
+          "label": "Not approved",
+          "notes": "Active academic discussion (Chew et al. 2024) but no regulatory pathway"
+        },
+        "sex_selection": {
+          "status": "prohibited",
+          "label": "Prohibited",
+          "notes": "Clarified in Circular 95/2023 — only for sex-linked disorders"
+        }
+      },
+      "cross_border_shipping": {
+        "status": "unclear",
+        "summary": "HBRA 2015 governs tissue broadly. No specific embryo biopsy export regulation found. May be restricted by AR licensing conditions.",
+        "evidence": "Open question: can a SG clinic ship biopsies for testing not approved domestically?"
+      },
+      "ivf_cost_usd": {
+        "min": 8000,
+        "max": 15000
+      },
+      "clinic_count": 25,
+      "tier1_count": 7,
+      "key_insight": "Most regulated market — Tier 1 clinics have PGT-M/SR approval and may ship biopsies under existing frameworks.",
+      "recent_changes": "HCSA Phase 2 (Jun 2023). PGT-A pilot ongoing. Age cap removed. Circular 10/2025 updated PGT licensing.",
+      "sources": [
+        {
+          "title": "HCSA — Assisted Reproduction Regulations",
+          "url": "https://www.hcsa.gov.sg/outpatient-services/assisted-reproduction-service/assisted-reproduction-regulations/"
+        },
+        {
+          "title": "HCSA — AR Circulars",
+          "url": "https://www.hcsa.gov.sg/outpatient-services/assisted-reproduction-service/assisted-reproduction-circulars/"
+        },
+        {
+          "title": "MOH — Introduction of PGT-M/SR",
+          "url": "https://www.moh.gov.sg/newsroom/introduction-of-pre-implantation-genetic-testing-for-monogenic-single-gene-defects-and-chromosomal-structural-rearrangements-as-clinical-services"
+        },
+        {
+          "title": "MOH — Approved PGT-M/SR Providers",
+          "url": "https://www.moh.gov.sg/others/resources-and-statistics/approved-providers-of-pre-implantation-genetic-testing-for-monogenic---single-gene-defects-and-chromosomal-structural-rearrangement-services/"
+        },
+        {
+          "title": "MOH — Marriage & Parenthood Schemes",
+          "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/marriage-and-parenthood-schemes/"
+        },
+        {
+          "title": "MOH Circular 95/2023 (PDF)",
+          "url": "https://isomer-user-content.by.gov.sg/7/99486b52-a17b-4ff3-b46d-524927f825e4/moh-cir-95-2023-clarification-on-hcs-ars-regs-and-artificial-insemination-procedures.pdf"
+        },
+        {
+          "title": "MOH Circular 10/2025 — PGT licensing (PDF)",
+          "url": "https://isomer-user-content.by.gov.sg/7/01616d0d-a859-4ebf-8ab6-7f92c2f82fd1/MOH%20Cir%2010_2025%20Written%20Direction%20for%20PGT%20LCs%20for%20CLS%20and%20ARS%20Licensees.pdf"
+        },
+        {
+          "title": "Status of Children (ART) Act 2013",
+          "url": "https://sso.agc.gov.sg/Act/SCARTA2013"
+        },
+        {
+          "title": "Human Biomedical Research Act 2015",
+          "url": "https://sso.agc.gov.sg/Act/HBRA2015"
+        },
+        {
+          "title": "Chew et al. 2024 — PGT-P regulatory safeguards",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38744454/"
+        },
+        {
+          "title": "Thomson Medical — PGD/PGT-M",
+          "url": "https://www.thomsonmedical.com/blog/preimplantation-genetic-diagnosis"
+        }
+      ]
+    },
+    {
+      "country": "Thailand",
+      "flag": "🇹🇭",
+      "priority": 4,
+      "regulator": "Medical Council of Thailand",
+      "pgt_status": {
+        "pgt_m": {
+          "status": "approved",
+          "label": "Approved",
+          "notes": "Available at private clinics"
+        },
+        "pgt_a": {
+          "status": "approved",
+          "label": "Approved",
+          "notes": "Widely offered — major fertility tourism hub"
+        },
+        "pgt_sr": {
+          "status": "approved",
+          "label": "Approved",
+          "notes": "Available alongside PGT-A"
+        },
+        "pgt_p": {
+          "status": "not_approved",
+          "label": "Not approved",
+          "notes": "Not available"
+        },
+        "sex_selection": {
+          "status": "approved",
+          "label": "Permitted",
+          "notes": "Permitted for international patients"
+        }
+      },
+      "cross_border_shipping": {
+        "status": "yes",
+        "summary": "Clinics widely ship to reference labs for PGT-A. Strong existing infrastructure.",
+        "evidence": "Multiple clinics (Jetanin, Superior A.R.T., SAFE) have established overseas lab relationships."
+      },
+      "ivf_cost_usd": {
+        "min": 5000,
+        "max": 10000
+      },
+      "clinic_count": 8,
+      "tier1_count": 6,
+      "key_insight": "Major fertility tourism hub with established biopsy shipping — natural PGT-P expansion market.",
+      "recent_changes": null,
+      "sources": []
+    },
+    {
+      "country": "Indonesia",
+      "flag": "🇮🇩",
+      "priority": 5,
+      "regulator": "Ministry of Health Indonesia",
+      "pgt_status": {
+        "pgt_m": {
+          "status": "restricted",
+          "label": "Limited",
+          "notes": "Morula IVF offers some genetic testing"
+        },
+        "pgt_a": {
+          "status": "restricted",
+          "label": "Limited",
+          "notes": "Available at select facilities"
+        },
+        "pgt_sr": {
+          "status": "unknown",
+          "label": "Unknown",
+          "notes": "No data"
+        },
+        "pgt_p": {
+          "status": "not_approved",
+          "label": "Not approved",
+          "notes": "Not available"
+        },
+        "sex_selection": {
+          "status": "prohibited",
+          "label": "Prohibited",
+          "notes": ""
+        }
+      },
+      "cross_border_shipping": {
+        "status": "unknown",
+        "summary": "No data on cross-border biopsy shipping practices.",
+        "evidence": null
+      },
+      "ivf_cost_usd": {
+        "min": 3000,
+        "max": 7000
+      },
+      "clinic_count": 7,
+      "tier1_count": 1,
+      "key_insight": "Growing IVF sector — Morula IVF dominant. Less mature than regional peers.",
+      "recent_changes": null,
+      "sources": []
+    },
+    {
+      "country": "Brunei",
+      "flag": "🇧🇳",
+      "priority": 6,
+      "regulator": "Ministry of Health Brunei",
+      "pgt_status": {
+        "pgt_m": {
+          "status": "not_approved",
+          "label": "Not available",
+          "notes": "No PGT domestically"
+        },
+        "pgt_a": {
+          "status": "not_approved",
+          "label": "Not available",
+          "notes": ""
+        },
+        "pgt_sr": {
+          "status": "not_approved",
+          "label": "Not available",
+          "notes": ""
+        },
+        "pgt_p": {
+          "status": "not_approved",
+          "label": "Not available",
+          "notes": ""
+        },
+        "sex_selection": {
+          "status": "unknown",
+          "label": "Unknown",
+          "notes": ""
+        }
+      },
+      "cross_border_shipping": {
+        "status": "unknown",
+        "summary": "Only RIPAS Hospital offers limited IVF.",
+        "evidence": null
+      },
+      "ivf_cost_usd": null,
+      "clinic_count": 1,
+      "tier1_count": 0,
+      "key_insight": "Single hospital with limited IVF — patients typically travel to Malaysia or Singapore.",
+      "recent_changes": null,
+      "sources": []
+    }
+  ],
+  "methodology": {
+    "geographic_scope": "~1,000km radius from Singapore + major IVF hubs (Hanoi, Bangkok)",
+    "countries": [
+      "Vietnam",
+      "Malaysia",
+      "Singapore",
+      "Thailand",
+      "Indonesia",
+      "Brunei"
+    ],
+    "priority_countries": [
+      "Vietnam",
+      "Malaysia",
+      "Singapore"
+    ],
+    "source_types": [
+      "Government AR registries",
+      "Google Maps (local language)",
+      "Professional society directories (ASPIRE, ESHRE)",
+      "Medical tourism aggregators",
+      "Hospital group websites",
+      "Reference lab partner lists (Igenomix, CooperGenomics, Natera)",
+      "Local-language web search"
+    ],
+    "tiering": {
+      "1": "Already does PGT-A/PGT-M, ships biopsies — ready for PGT-P partnership",
+      "2": "Full IVF with embryology lab but no PGT — needs onboarding",
+      "3": "Basic fertility (IUI-level) — long-term prospect"
+    },
+    "data_completeness_note": "Singapore and Vietnam (Hanoi) have comprehensive data. Malaysia, Thailand, Indonesia, and Vietnam (HCMC) are in discovery phase."
+  }
+}

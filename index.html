@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEA Fertility Genomics Research — PGT-P Partnership Opportunities</title>
+  <meta name="description" content="Mapping IVF clinics across Southeast Asia for PGT-P partnership with Genomic Prediction / LifeView.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+
+  <!-- Leaflet MarkerCluster CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+
+  <!-- App CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <span class="nav-brand">SEA Fertility Genomics Research</span>
+      <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#pgt-section">What is PGT?</a></li>
+        <li><a href="#map-section">Map</a></li>
+        <li><a href="#clinics-section">Clinics</a></li>
+        <li><a href="#regulatory-section">Regulatory</a></li>
+        <li><a href="#api-section">API</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1>PGT-P Partnership Opportunities in Southeast Asia</h1>
+      <p class="hero-sub">Mapping IVF clinics across 6 countries for Genomic Prediction's LifeView expansion into the region. Identifying clinics that already ship embryo biopsies overseas — the lowest-friction path to PGT-P partnership.</p>
+      <div class="metrics-grid" id="metrics-grid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- PGT EDUCATION -->
+  <section class="section" id="pgt-section">
+    <div class="container">
+      <div class="section-header pgt-collapse-header" onclick="document.getElementById('pgt-content').classList.toggle('open'); this.classList.toggle('open')">
+        <h2>Understanding PGT: Preimplantation Genetic Testing <span class="pgt-toggle-hint">Click to expand</span></h2>
+        <p>Four types of embryo genetic testing, the complete IVF + PGT-P workflow with costs and timelines, and what to expect at every step.</p>
+      </div>
+      <div class="pgt-collapse-content" id="pgt-content">
+      <div class="pgt-edu-grid">
+
+        <div class="pgt-edu-card">
+          <div class="pgt-edu-icon">🧬</div>
+          <h3>PGT-M</h3>
+          <div class="pgt-edu-full">Monogenic / Single-Gene Disorders</div>
+          <p class="pgt-edu-what"><strong>What it tests:</strong> Whether an embryo carries a specific gene mutation known to run in the family.</p>
+          <p class="pgt-edu-example"><strong>Examples:</strong> Cystic fibrosis, sickle cell disease, Huntington's, BRCA1/2 (hereditary breast cancer), thalassemia, spinal muscular atrophy.</p>
+          <p class="pgt-edu-why"><strong>Why it matters:</strong> If both parents carry the same recessive mutation, each embryo has a 25% chance of being affected. PGT-M identifies which embryos are clear.</p>
+          <div class="pgt-edu-status">
+            <span class="badge badge-approved">Approved in SG, MY, VN, TH</span>
+          </div>
+        </div>
+
+        <div class="pgt-edu-card">
+          <div class="pgt-edu-icon">🔬</div>
+          <h3>PGT-SR</h3>
+          <div class="pgt-edu-full">Structural Rearrangements</div>
+          <p class="pgt-edu-what"><strong>What it tests:</strong> Whether an embryo has the correct arrangement of chromosomal segments — no pieces swapped, flipped, or missing.</p>
+          <p class="pgt-edu-example"><strong>Examples:</strong> Translocations (chromosome segments swap places), inversions (segments flip), deletions (segments missing).</p>
+          <p class="pgt-edu-why"><strong>Why it matters:</strong> Parents who carry a balanced translocation are healthy themselves, but their embryos have a high chance of unbalanced chromosomes — leading to miscarriage or developmental conditions.</p>
+          <div class="pgt-edu-status">
+            <span class="badge badge-approved">Approved in SG, MY, TH</span>
+          </div>
+        </div>
+
+        <div class="pgt-edu-card">
+          <div class="pgt-edu-icon">🧮</div>
+          <h3>PGT-A</h3>
+          <div class="pgt-edu-full">Aneuploidy (Chromosome Count)</div>
+          <p class="pgt-edu-what"><strong>What it tests:</strong> Whether an embryo has the correct number of chromosomes — exactly 46 (23 pairs).</p>
+          <p class="pgt-edu-example"><strong>Examples:</strong> Down syndrome (extra chromosome 21), Turner syndrome (missing X), Edwards syndrome (extra chromosome 18).</p>
+          <p class="pgt-edu-why"><strong>Why it matters:</strong> Aneuploidy is the #1 cause of IVF failure and miscarriage. It increases sharply with maternal age — at 40, over 60% of embryos are aneuploid. Transferring only euploid (normal count) embryos improves success rates.</p>
+          <div class="pgt-edu-status">
+            <span class="badge badge-approved">Available in MY, VN, TH</span>
+            <span class="badge badge-restricted">Pilot only in SG</span>
+          </div>
+        </div>
+
+        <div class="pgt-edu-card pgt-edu-highlight">
+          <div class="pgt-edu-icon">📊</div>
+          <h3>PGT-P</h3>
+          <div class="pgt-edu-full">Polygenic Risk Scoring</div>
+          <p class="pgt-edu-what"><strong>What it tests:</strong> An embryo's combined genetic risk for common diseases — using hundreds to thousands of gene variants together, not just one gene.</p>
+          <p class="pgt-edu-example"><strong>Examples:</strong> Heart disease, type 2 diabetes, breast cancer, schizophrenia, Alzheimer's, obesity risk.</p>
+          <p class="pgt-edu-why"><strong>Why it matters:</strong> Most diseases aren't caused by a single gene — they're polygenic. PGT-P uses the same biopsy already taken for PGT-A (no extra procedure) to calculate a risk profile across multiple diseases. This is what <strong>Genomic Prediction / LifeView</strong> offers.</p>
+          <div class="pgt-edu-note">
+            <strong>Key point:</strong> PGT-P is not approved in any Southeast Asian country. The pathway is: local IVF clinic performs the biopsy → ships cells to Genomic Prediction's lab in New Jersey, USA → results returned in ~14 days.
+          </div>
+          <div class="pgt-edu-status">
+            <span class="badge badge-not-approved">Not approved in SEA</span>
+            <span class="badge badge-unclear">Available via US lab partnership</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pgt-workflow-detailed">
+        <h3>The Complete IVF + PGT-P Journey: Step by Step</h3>
+        <p class="workflow-intro">From first consultation to pregnancy test — what to expect at every stage, how much it costs in Southeast Asia, and what to watch for.</p>
+
+        <div class="workflow-timeline">
+
+          <div class="wf-step">
+            <div class="wf-header">
+              <div class="wf-num">1</div>
+              <div class="wf-title">
+                <h4>Initial Consultation & Workup</h4>
+                <div class="wf-meta">
+                  <span class="wf-duration">2–3 weeks</span>
+                  <span class="wf-cost">$300–$1,500</span>
+                </div>
+              </div>
+            </div>
+            <div class="wf-body">
+              <p><strong>What happens:</strong> Both partners undergo a comprehensive fertility assessment. For her: hormonal bloodwork (AMH, FSH, LH, estradiol), transvaginal ultrasound to count antral follicles, and possibly an HSG (tubal patency test). For him: semen analysis. If PGT-M is also desired, both partners do carrier screening for genetic mutations.</p>
+              <div class="wf-considerations">
+                <strong>Considerations:</strong>
+                <ul>
+                  <li>Some clinics bundle all initial tests into one package; others charge per test. Ask upfront.</li>
+                  <li>AMH (Anti-Mullerian Hormone) is the best predictor of how many eggs you'll retrieve. Higher AMH = more eggs = more embryos to test.</li>
+                  <li>If you're doing PGT-P specifically, mention it early — not all clinics will be familiar. Tier 1 clinics on our map already ship biopsies overseas.</li>
+                  <li>Insurance almost never covers IVF or PGT in Southeast Asia. Budget for the full out-of-pocket cost.</li>
+                  <li>In Singapore, government co-funding covers up to 75% of ART costs for the first cycle (Singaporean citizens only, age limits apply).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="wf-step">
+            <div class="wf-header">
+              <div class="wf-num">2</div>
+              <div class="wf-title">
+                <h4>Ovarian Stimulation</h4>
+                <div class="wf-meta">
+                  <span class="wf-duration">10–14 days</span>
+                  <span class="wf-cost">$1,500–$4,000 (medications)</span>
+                </div>
+              </div>
+            </div>
+            <div class="wf-body">
+              <p><strong>What happens:</strong> Daily hormone injections (gonadotropins like Gonal-F, Menopur, or Pergoveris) stimulate the ovaries to produce multiple eggs instead of the usual one. You'll visit the clinic every 2–3 days for ultrasound monitoring and blood tests. When follicles are mature (typically 18–20mm), a "trigger shot" (hCG or GnRH agonist) is given to finalize egg maturation.</p>
+              <div class="wf-considerations">
+                <strong>Considerations:</strong>
+                <ul>
+                  <li><strong>Medications are the single biggest variable cost.</strong> The same drugs can cost 2–3x more in Singapore than in Vietnam. Some patients buy medications in a cheaper country and bring them to the clinic.</li>
+                  <li>Mild stimulation protocols use lower doses (fewer eggs, gentler on the body). Conventional protocols aim for more eggs. Your doctor will recommend based on AMH, age, and goals.</li>
+                  <li>Side effects: bloating, mood swings, injection site discomfort. Ovarian hyperstimulation syndrome (OHSS) is rare but serious — clinics monitor for this.</li>
+                  <li>For PGT-P, more eggs is better: you need enough embryos reaching blastocyst to have meaningful selection. 10+ eggs retrieved is a good target.</li>
+                  <li>At age 35: expect ~10–15 eggs. At 40: expect ~5–8. These are averages — individual response varies hugely.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="wf-step">
+            <div class="wf-header">
+              <div class="wf-num">3</div>
+              <div class="wf-title">
+                <h4>Egg Retrieval</h4>
+                <div class="wf-meta">
+                  <span class="wf-duration">1 day (outpatient)</span>
+                  <span class="wf-cost">Bundled in IVF cycle</span>
+                </div>
+              </div>
+            </div>
+            <div class="wf-body">
+              <p><strong>What happens:</strong> 36 hours after the trigger shot, eggs are collected via transvaginal ultrasound-guided aspiration. A thin needle passes through the vaginal wall into each follicle. The procedure takes 15–30 minutes under light sedation. You'll rest at the clinic for 1–2 hours, then go home. Plan for 1–2 days of rest afterward.</p>
+              <div class="wf-considerations">
+                <strong>Considerations:</strong>
+                <ul>
+                  <li>Not every follicle contains a mature egg. If 12 follicles are seen on ultrasound, you might get 10 eggs, of which 8 are mature.</li>
+                  <li>The partner provides a sperm sample on the same day (or frozen sperm is thawed).</li>
+                  <li>Mild cramping and spotting for 1–2 days is normal. Severe bloating or pain → call the clinic immediately (OHSS risk).</li>
+                  <li>This is the last step that requires the female partner to be physically present at the clinic until embryo transfer (weeks later).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="wf-step">
+            <div class="wf-header">
+              <div class="wf-num">4</div>
+              <div class="wf-title">
+                <h4>Fertilization & Embryo Culture</h4>
+                <div class="wf-meta">
+                  <span class="wf-duration">5–6 days</span>
+                  <span class="wf-cost">Bundled in IVF cycle</span>
+                </div>
+              </div>
+            </div>
+            <div class="wf-body">
+              <p><strong>What happens:</strong> Eggs are fertilized using ICSI (intracytoplasmic sperm injection) — a single sperm is injected directly into each mature egg. Embryos are then cultured in an incubator for 5–6 days until they reach the blastocyst stage. The clinic will typically update you on day 1 (fertilization results), day 3 (cell division), and day 5–6 (blastocyst formation).</p>
+              <div class="wf-considerations">
+                <strong>Considerations:</strong>
+                <ul>
+                  <li><strong>Attrition is normal and expected.</strong> A typical progression: 10 eggs → 8 mature → 6 fertilize → 3–4 reach blastocyst. This is the hardest part emotionally.</li>
+                  <li>ICSI is standard in most SEA clinics (vs. conventional IVF) because it gives better control per egg.</li>
+                  <li>Only blastocyst-stage embryos (day 5–6) can be biopsied for PGT. Embryos that arrest at day 3–4 are not viable for testing.</li>
+                  <li>Some clinics use time-lapse incubators (e.g., EmbryoScope) that monitor embryos without opening the incubator. Not required, but a quality signal.</li>
+                  <li>For PGT-P to be meaningful, you want at least 3–4 blastocysts to have real selection power. If only 1–2 make it, there's less to choose between.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="wf-step">
+            <div class="wf-header">
+              <div class="wf-num">5</div>
+              <div class="wf-title">
+                <h4>Trophectoderm Biopsy & Vitrification</h4>
+                <div class="wf-meta">
+                  <span class="wf-duration">Day 5–6</span>
+                  <span class="wf-cost">$500–$1,500 (biopsy fee)</span>
+                </div>
+              </div>
+            </div>
+            <div class="wf-body">
+              <p><strong>What happens:</strong> An embryologist removes 5–10 cells from the trophectoderm (the outer cell layer that becomes the placenta, not the inner cell mass that becomes the baby). This is the same biopsy used for PGT-A — one biopsy, multiple tests. Immediately after biopsy, embryos are vitrified (flash-frozen) and stored while waiting for results.</p>
+              <div class="wf-considerations">
+                <strong>Considerations:</strong>
+                <ul>
+                  <li><strong>This is the critical capability that separates Tier 1 from Tier 2 clinics.</strong> Not all IVF clinics can perform trophectoderm biopsy — it requires trained embryologists and specialized equipment.</li>
+                  <li>The biopsy does not damage the embryo. Trophectoderm cells regenerate. Decades of evidence show no increased risk to the baby.</li>
+                  <li>Some clinics charge per embryo for biopsy ($200–$400 each), others charge a flat fee per cycle.</li>
+                  <li>Vitrification (flash-freezing) has a >99% survival rate. Your embryos can stay frozen for years.</li>
+                  <li>The biopsy cells are placed in individual tubes, labeled, and prepared for shipping.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="wf-step wf-step-highlight">
+            <div class="wf-header">
+              <div class="wf-num">6</div>
+              <div class="wf-title">
+                <h4>Ship Biopsy to Genomic Prediction (USA)</h4>
+                <div class="wf-meta">
+                  <span class="wf-duration">1–3 days transit</span>
+                  <span class="wf-cost">$200–$500 (shipping)</span>
+                </div>
+              </div>
+            </div>
+            <div class="wf-body">
+              <p><strong>What happens:</strong> The clinic packages the biopsy tubes and ships them to Genomic Prediction's laboratory in North Brunswick, New Jersey, USA. Shipping uses specialized medical couriers (World Courier, Cryoport, or similar) with temperature-controlled containers and chain-of-custody tracking.</p>
+              <div class="wf-considerations">
+                <strong>Considerations:</strong>
+                <ul>
+                  <li><strong>This is the novel step — where the SEA clinic connects with the US lab.</strong> The clinic needs to be willing to coordinate international biopsy shipping.</li>
+                  <li>Malaysian clinics already ship to Igenomix (Spain/Singapore hub) for PGT-A — the same logistics apply. Shipping to the US is the same process, different destination.</li>
+                  <li>Cross-border regulations vary: Malaysia and Thailand have the clearest pathways. Singapore and Vietnam have less certainty (see our regulatory section).</li>
+                  <li>Customs documentation required: biological material declaration, IATA dangerous goods (dry ice), import/export permits depending on country.</li>
+                  <li>Genomic Prediction has 200+ partner clinics globally — they handle onboarding logistics for new clinics.</li>
+                  <li>The embryos stay at your local clinic. Only the biopsy cells travel.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="wf-step wf-step-highlight">
+            <div class="wf-header">
+              <div class="wf-num">7</div>
+              <div class="wf-title">
+                <h4>PGT-A + PGT-P Analysis</h4>
+                <div class="wf-meta">
+                  <span class="wf-duration">~14 days</span>
+                  <span class="wf-cost">$2,500–$6,000+ (PGT-P)</span>
+                </div>
+              </div>
+            </div>
+            <div class="wf-body">
+              <p><strong>What happens:</strong> At Genomic Prediction's lab, DNA is extracted from the biopsy cells, amplified, and genotyped on a high-density SNP array. PGT-A results (chromosome count) are generated alongside PGT-P polygenic risk scores. Each embryo receives an Embryo Health Score (EHS) — a composite risk profile across multiple diseases. LifeView's platform includes PGT-A at no additional cost when bundled with PGT-P.</p>
+              <div class="wf-considerations">
+                <strong>Considerations:</strong>
+                <ul>
+                  <li><strong>Genomic Prediction does not publish standard pricing.</strong> Cost depends on number of embryos, specific tests, and clinic partnership terms. The range $2,500–$6,000+ is estimated from industry data. Contact them or your clinic for an exact quote.</li>
+                  <li>Alternative provider: <strong>Orchid Health</strong> (San Francisco) offers whole-genome sequencing at ~$2,500/embryo — broader coverage but different approach.</li>
+                  <li><strong>Ancestry limitation:</strong> Polygenic risk scores are most accurate for European-ancestry populations. For Southeast Asian patients, prediction accuracy is reduced. This is the single biggest limitation and is improving but not yet resolved.</li>
+                  <li>Results show relative risk, not certainty. An embryo with "low risk" for diabetes can still develop diabetes. An embryo with "high risk" may never develop it.</li>
+                  <li>Diseases screened typically include: heart disease, type 2 diabetes, breast cancer, prostate cancer, schizophrenia, Alzheimer's, obesity risk, and more.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="wf-step">
+            <div class="wf-header">
+              <div class="wf-num">8</div>
+              <div class="wf-title">
+                <h4>Results Review & Embryo Selection</h4>
+                <div class="wf-meta">
+                  <span class="wf-duration">1–2 weeks</span>
+                  <span class="wf-cost">$100–$300 (counseling)</span>
+                </div>
+              </div>
+            </div>
+            <div class="wf-body">
+              <p><strong>What happens:</strong> Your fertility doctor receives a report for each embryo showing: (1) PGT-A result — euploid (normal chromosomes) or aneuploid (abnormal), and (2) PGT-P Embryo Health Score with per-disease risk profiles. Only euploid embryos are candidates for transfer. Among the euploid embryos, PGT-P scores help inform selection. Genetic counseling is strongly recommended to interpret results.</p>
+              <div class="wf-considerations">
+                <strong>Considerations:</strong>
+                <ul>
+                  <li>PGT-A is the gatekeeper: aneuploid embryos are typically not transferred regardless of PGT-P scores.</li>
+                  <li>If you have 4 blastocysts but only 2 are euploid, PGT-P helps you choose between those 2.</li>
+                  <li>If only 1 embryo is euploid, PGT-P provides information but doesn't change the selection — you transfer that one.</li>
+                  <li>Genetic counseling can be done remotely. Some providers (including LifeView) offer telemedicine genetic counseling.</li>
+                  <li>This is a decision point: you may decide to transfer the best embryo now, or do another retrieval cycle to bank more embryos before choosing.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="wf-step">
+            <div class="wf-header">
+              <div class="wf-num">9</div>
+              <div class="wf-title">
+                <h4>Frozen Embryo Transfer (FET)</h4>
+                <div class="wf-meta">
+                  <span class="wf-duration">4–6 weeks preparation + 1 day transfer</span>
+                  <span class="wf-cost">$1,000–$3,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="wf-body">
+              <p><strong>What happens:</strong> The uterine lining is prepared for implantation — either through a medicated cycle (estrogen + progesterone) or a natural/modified natural cycle timed to ovulation. On transfer day, the selected embryo is thawed and transferred into the uterus via a thin catheter. The procedure takes 5–10 minutes, is painless, and requires no sedation. You rest for 30 minutes, then go home.</p>
+              <div class="wf-considerations">
+                <strong>Considerations:</strong>
+                <ul>
+                  <li>FET is a separate cycle from the retrieval — typically done 1–2 months after receiving PGT results.</li>
+                  <li>If you did IVF abroad and want to transfer at a clinic closer to home, embryos can be shipped between clinics (additional $500–$1,000 for cryo-shipping).</li>
+                  <li>Single embryo transfer is standard practice — reduces twin/multiple pregnancy risk while maintaining good success rates.</li>
+                  <li>Success rate for a single euploid embryo transfer: approximately 50–65% per transfer, depending on age and other factors.</li>
+                  <li>If the first transfer doesn't work, you can try again with another frozen embryo (additional FET cost each time).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="wf-step">
+            <div class="wf-header">
+              <div class="wf-num">10</div>
+              <div class="wf-title">
+                <h4>Pregnancy Test & Early Monitoring</h4>
+                <div class="wf-meta">
+                  <span class="wf-duration">2–8 weeks after transfer</span>
+                  <span class="wf-cost">$100–$500</span>
+                </div>
+              </div>
+            </div>
+            <div class="wf-body">
+              <p><strong>What happens:</strong> A beta-hCG blood test is done 10–14 days after embryo transfer. If positive, a follow-up blood test confirms hCG is rising. A viability ultrasound at 6–7 weeks confirms heartbeat and rules out ectopic pregnancy. Once a heartbeat is confirmed, you're typically graduated to a regular OB-GYN.</p>
+              <div class="wf-considerations">
+                <strong>Considerations:</strong>
+                <ul>
+                  <li>Even with a euploid, PGT-P-screened embryo, implantation is not guaranteed. ~35–50% of euploid transfers do not result in pregnancy.</li>
+                  <li>If the transfer fails, most patients try again with another frozen embryo. No new retrieval needed if you have remaining embryos.</li>
+                  <li>If no embryos remain, you may need another full IVF cycle (back to Step 2).</li>
+                  <li>Early pregnancy monitoring after IVF is more intensive than natural conception — more blood tests and ultrasounds in the first trimester.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="wf-summary">
+          <h4>Total Cost & Timeline Summary</h4>
+          <div class="wf-summary-grid">
+            <div class="wf-summary-card">
+              <div class="wf-summary-label">Total Timeline</div>
+              <div class="wf-summary-value">3–5 months</div>
+              <div class="wf-summary-note">First consultation to pregnancy test</div>
+            </div>
+            <div class="wf-summary-card">
+              <div class="wf-summary-label">IVF Cycle (SEA)</div>
+              <div class="wf-summary-value">$2,400–$15,000</div>
+              <div class="wf-summary-note">Vietnam lowest, Singapore highest</div>
+            </div>
+            <div class="wf-summary-card">
+              <div class="wf-summary-label">PGT-P (LifeView)</div>
+              <div class="wf-summary-value">$2,500–$6,000+</div>
+              <div class="wf-summary-note">Includes PGT-A, contact for quote</div>
+            </div>
+            <div class="wf-summary-card">
+              <div class="wf-summary-label">Estimated Total</div>
+              <div class="wf-summary-value">$7,000–$25,000+</div>
+              <div class="wf-summary-note">SEA IVF + US lab PGT-P + FET. Excludes repeat cycles.</div>
+            </div>
+          </div>
+          <p class="wf-summary-footnote">Costs are estimates based on publicly available data and may vary significantly by clinic, country, and individual case. Genomic Prediction does not publish standard pricing — contact <a href="mailto:sales@genomicprediction.com">sales@genomicprediction.com</a> or your clinic for a specific quote. All costs in USD.</p>
+        </div>
+      </div>
+      </div><!-- end pgt-collapse-content -->
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="section" id="map-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Clinic Map</h2>
+        <p>IVF clinics across Southeast Asia, colored by partnership readiness tier.</p>
+      </div>
+      <div id="map"></div>
+      <div class="map-legend">
+        <div class="legend-item"><span class="legend-dot" style="background:#10B981"></span> Tier 1 — Ships biopsies, does PGT</div>
+        <div class="legend-item"><span class="legend-dot" style="background:#F59E0B"></span> Tier 2 — Full IVF, no PGT</div>
+        <div class="legend-item"><span class="legend-dot" style="background:#94A3B8"></span> Tier 3 — Basic fertility</div>
+        <div class="legend-item"><span class="legend-dot" style="background:#CBD5E1"></span> Untiered — Data incomplete</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLINICS TABLE -->
+  <section class="section" id="clinics-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Clinic Directory</h2>
+        <p>All mapped clinics with filtering by country and partnership readiness tier.</p>
+      </div>
+      <div class="filters">
+        <div class="filter-group">
+          <label>Country</label>
+          <div id="country-filters"></div>
+        </div>
+        <div class="filter-group">
+          <label>Tier</label>
+          <div id="tier-filters"></div>
+        </div>
+        <input type="text" class="search-input" id="search-input" placeholder="Search clinic name...">
+        <span class="result-count" id="result-count"></span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th data-sort="clinic_name">Clinic</th>
+              <th data-sort="country">Country</th>
+              <th data-sort="city">City</th>
+              <th data-sort="tier">Tier</th>
+              <th>Services</th>
+              <th>Ships Overseas</th>
+            </tr>
+          </thead>
+          <tbody id="clinic-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- REGULATORY -->
+  <section class="section" id="regulatory-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Regulatory Landscape</h2>
+        <p>Country-by-country PGT approval status, cross-border biopsy shipping rules, and IVF costs.</p>
+      </div>
+      <div class="reg-grid" id="reg-grid-priority">
+        <!-- Priority countries rendered by JS -->
+      </div>
+      <div class="secondary-countries">
+        <button class="secondary-toggle" onclick="document.getElementById('secondary-content').classList.toggle('open'); this.textContent = this.textContent.includes('Show') ? 'Hide secondary countries (Thailand, Indonesia, Brunei)' : 'Show secondary countries (Thailand, Indonesia, Brunei)'">
+          Show secondary countries (Thailand, Indonesia, Brunei)
+        </button>
+        <div id="secondary-content" class="secondary-content">
+          <!-- Secondary countries rendered by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- API DOCS -->
+  <section class="section" id="api-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>API Access</h2>
+        <p>All research data is available as JSON. No authentication required.</p>
+      </div>
+      <div class="api-grid">
+        <div class="api-card">
+          <span class="api-method">GET</span>
+          <span class="api-path">/api/clinics.json</span>
+          <p class="api-desc">All clinics with full metadata — name, country, city, tier, services, contact info, coordinates.</p>
+          <button class="api-copy" onclick="copyApiUrl('api/clinics.json')">Copy URL</button>
+        </div>
+        <div class="api-card">
+          <span class="api-method">GET</span>
+          <span class="api-path">/api/clinics-stats.json</span>
+          <p class="api-desc">Aggregated counts: clinics by country, by tier, data completeness metrics.</p>
+          <button class="api-copy" onclick="copyApiUrl('api/clinics-stats.json')">Copy URL</button>
+        </div>
+        <div class="api-card">
+          <span class="api-method">GET</span>
+          <span class="api-path">/api/regulatory.json</span>
+          <p class="api-desc">Per-country regulatory status: PGT approvals, shipping rules, costs, key insights.</p>
+          <button class="api-copy" onclick="copyApiUrl('api/regulatory.json')">Copy URL</button>
+        </div>
+        <div class="api-card">
+          <span class="api-method">GET</span>
+          <span class="api-path">/api/report.json</span>
+          <p class="api-desc">Complete research report combining clinics, stats, regulatory, and methodology.</p>
+          <button class="api-copy" onclick="copyApiUrl('api/report.json')">Copy URL</button>
+        </div>
+      </div>
+      <div class="code-block">
+        <span class="comment">// Fetch all Tier 1 clinics — ready for PGT-P partnership</span><br>
+        <span class="keyword">const</span> res = <span class="keyword">await</span> <span class="func">fetch</span>(<span class="string">'https://yoursite.com/api/clinics.json'</span>);<br>
+        <span class="keyword">const</span> clinics = <span class="keyword">await</span> res.<span class="func">json</span>();<br>
+        <span class="keyword">const</span> tier1 = clinics.<span class="func">filter</span>(c =&gt; c.tier === <span class="string">1</span>);<br>
+        console.<span class="func">log</span>(<span class="string">`${tier1.length} clinics ready for PGT-P partnership`</span>);
+      </div>
+    </div>
+  </section>
+
+  <!-- METHODOLOGY -->
+  <section class="section" id="methodology-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Research Methodology</h2>
+        <p>How this data was collected and verified.</p>
+      </div>
+      <div class="method-grid">
+        <div class="method-card">
+          <h4>7 Source Types</h4>
+          <ul>
+            <li>Government AR registries</li>
+            <li>Google Maps (local language)</li>
+            <li>Professional directories (ASPIRE, ESHRE)</li>
+            <li>Medical tourism aggregators</li>
+            <li>Hospital group websites</li>
+            <li>Reference lab partner lists</li>
+            <li>Local-language web search</li>
+          </ul>
+        </div>
+        <div class="method-card">
+          <h4>Tiering Criteria</h4>
+          <ul>
+            <li><strong>Tier 1:</strong> Does PGT-A/PGT-M, ships biopsies — ready for PGT-P</li>
+            <li><strong>Tier 2:</strong> Full IVF with lab but no PGT — needs onboarding</li>
+            <li><strong>Tier 3:</strong> Basic fertility (IUI-level) — long-term</li>
+          </ul>
+        </div>
+        <div class="method-card">
+          <h4>Data Completeness</h4>
+          <ul id="completeness-list">
+            <!-- Populated by JS -->
+          </ul>
+        </div>
+        <div class="method-card">
+          <h4>Priority Countries</h4>
+          <ul>
+            <li><strong>Vietnam</strong> — largest clinic count, active PGT market</li>
+            <li><strong>Malaysia</strong> — clinics already ship to Igenomix</li>
+            <li><strong>Singapore</strong> — most regulated, strong Tier 1 base</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <strong style="color:white">SEA Fertility Genomics Research</strong><br>
+        Research compiled by Kuan Yu, Singapore<br>
+        For Genomic Prediction / LifeView partnership evaluation
+      </div>
+      <div class="footer-right">
+        Data sources: MOH registries, ASPIRE, medical tourism platforms, clinic websites<br>
+        <a href="#api-section">API Access</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+  <!-- App JS -->
+  <script src="app.js"></script>
+</body>
+</html>
